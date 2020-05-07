@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    }
+
+
+.line_with_logo {
+    width:100%;
+    background:#9999CC;
+    height:5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.notif {
+    width:1.5rem;
+    padding-left: 2rem;
+    margin-right: 1rem;
+}
+.logo_m {
+    padding-left: 2.9rem;
+    width:7rem;
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+.category {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.line_with_SMM {
+    width:100%;
+    background:white;
+    height:7rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+
+}
+.SMM {
+    margin-left: rem;
+}
+.smm_img {
+    padding-left: 3rem;
+}
+.marquee{
+    width:40rem;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left: 4rem;
+    }
+     
+    .marquee span {
+    color:#212121;
+    font-size:1rem;
+    display:inline-block;
+    padding-left:50rem;
+    -webkit-animation: marquee 70s infinite linear;
+    animation: marquee 70s infinite linear;
+    }
+     
+    @-webkit-keyframes marquee {
+    0%{-webkit-transform: translate(0, 0);}
+    100%{-webkit-transform: translate(-100%, 0);}
+    }
+    @keyframes marquee{
+    0%{transform: translate(0, 0);}
+    100%{transform: translate(-100%, 0)}
+    }
+form {
+    position: relative;
+    width: 300px;
+    margin-right:1.8rem;
+    margin-left: 2rem;
+    
+    
+  }
+  input, button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+  }
+  input {
+    width: 100%;
+    height: 42px;
+    background: #9999CC;
+    padding-left: 15px;
+    color:black;
+  }
+  button {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #9B51E0;
+    cursor: pointer;
+  }
+  button:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.4fr;
+    gap: 1px 1px;
+    grid-template-areas: "Опрос ГЛНВ ГЛНВ Курс" "ПБНВ1 ГЛНВ1 ГЛНВ2 Погода" ;
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+    text-align: center;
+  }
+  
+  .ГЛНВ { grid-area: ГЛНВ; }
+  
+  .ГЛНВ1 { grid-area: ГЛНВ1; }
+  
+  .ГЛНВ2 { grid-area: ГЛНВ2; }
+  
+  .Опрос { grid-area: Опрос; }
+  
+  .ПБНВ1 { grid-area: ПБНВ1; }
+
+  .Курс { grid-area: Курс; }
+  
+  .Погода { grid-area: Погода; }
+
+.news {
+    width:18rem;
+    margin-right: 1.2rem;
+    
+}  
+.m_news {
+    width:36rem;
+    text-align: center;
+}  
+.text_m {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.text_pb {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+
+.grid-container_2 {
+    display: grid;
+    grid-template-columns: 0.7fr 0.8fr 0.7fr 2fr;
+    grid-template-rows:1fr;
+    gap: 1px 1px;
+    grid-template-areas: "ПБНВ2 ГЛНВ3 ГЛНВ4 Рассылка";
+    margin-left: 2.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .ПБНВ2 { grid-area: ПБНВ2; }
+  
+  .ГЛНВ3 { grid-area: ГЛНВ3; }
+  
+  .ГЛНВ4 { grid-area: ГЛНВ4; }
+  
+  .Рассылка { grid-area: Рассылка; }
+
+
+
+footer {
+    background: #9999CC;
+}
+.footer_container {
+    height: 8rem;
+    text-align: center;
+    background: #9999CC;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.about_h {
+    font-size: 1.5rem;
+}
+
+
+.form {
+    border: 2px solid #f1f1f1;
+    
+}
+
+.container {
+    padding: 1rem;
+    background-color: #f1f1f1;
+    width:15rem;
+}
+
+input[type=text1], input[type=submit1] {
+    width: 70%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+input[type=submit1] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    width:12rem;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+.ПБНВ2 {
+    margin-right: 2rem;
+    
+}
